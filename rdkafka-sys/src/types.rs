@@ -248,7 +248,7 @@ pub enum RDKafkaErrorCode {
     LogTruncation = -139,
     /// A different record in the batch was invalid and this message failed
     /// persisting.
-    InvaliidDifferentRecord = -138,
+    InvalidDifferentRecord = -138,
     #[doc(hidden)]
     End = -100,
     /// Unknown broker error.
